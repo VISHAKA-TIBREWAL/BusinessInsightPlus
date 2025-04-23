@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
-import { Menu, X, ChevronDown, User, BookmarkIcon, LogOut, LayoutDashboard } from 'lucide-react';
+import { Menu, X, ChevronDown, User, LogOut, LayoutDashboard } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <div className="text-primary-700 font-bold text-xl md:text-2xl">
-                BusinessNewsInsights
+                BusinessInsightsPlus+
               </div>
             </Link>
           </div>
