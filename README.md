@@ -1,6 +1,6 @@
 # BusinessNewsInsights
 
-A MERN stack application that provides AI-summarized business news and stock market data.
+A MERN stack application that provides business news and stock market data.
 
 ## Features
 
@@ -8,15 +8,15 @@ A MERN stack application that provides AI-summarized business news and stock mar
 - Business news aggregation with AI summarization
 - Stock market data visualization
 - User dashboard for saved/liked news management
-- Backend API integration with NewsAPI and Finnhub
+- Backend API integration with NewsAPI and Alpha Vantage API
 
 ## Tech Stack
 
 - **Frontend**: React, TailwindCSS
 - **Backend**: Node.js, Express
-- **Database**: MongoDB
+- **Database**: Firestore
 - **Authentication**: Firebase
-- **AI Summarization**: Google Gemini API
+
 
 ## Setup Instructions
 
@@ -44,8 +44,7 @@ npm run dev & npm run server
 ## API Keys Required
 
 - NewsAPI.org API key
-- Finnhub.io API key
-- Google Gemini API key
+- AlphaVantageAPI.io API key
 - Firebase project configuration
 
 ## Project Structure
