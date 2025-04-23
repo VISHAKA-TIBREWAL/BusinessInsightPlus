@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-sm text-gray-400">
           <p>© {currentYear} BusinessNewsInsights. All rights reserved.</p>
           <p className="mt-2">
-            Powered by NewsAPI and Finnhub.
+            Powered by NewsAPI and Alpha Vantage API.
           </p>
         </div>
       </div>
